@@ -1,12 +1,12 @@
-function agregar(valor){
+function agregarNumero(valor){
     document.getElementById('pantalla').value += valor;
 };
 
-function borrar(){
+function borrarNumero(){
     document.getElementById('pantalla').value = '';
 };
 
-function calcular(){
+function calcularNumero(){
     const valorPantalla = document.getElementById('pantalla').value
     const resultado = eval(valorPantalla)
     document.getElementById('pantalla').value = resultado

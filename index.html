@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Simple Calculadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,29 +14,28 @@
     <div class="calculadora">
         <input type="text" id="pantalla" readonly>
         <br>
-        <input type="button" value="1" onclick="agregar('1')">
-        <input type="button" value="2" onclick="agregar('2')">
-        <input type="button" value="3" onclick="agregar('3')">
-        <input type="button" value="+" onclick="agregar('+')">
+        <input type="button" value="1" onclick="agregarNumero('1')">
+        <input type="button" value="2" onclick="agregarNumero('2')">
+        <input type="button" value="3" onclick="agregarNumero('3')">
+        <input type="button" value="+" onclick="agregarNumero('+')">
         <br>
-        <input type="button" value="4" onclick="agregar('4')">
-        <input type="button" value="5" onclick="agregar('5')">
-        <input type="button" value="6" onclick="agregar('6')">
-        <input type="button" value="-" onclick="agregar('-')">
+        <input type="button" value="4" onclick="agregarNumero('4')">
+        <input type="button" value="5" onclick="agregarNumero('5')">
+        <input type="button" value="6" onclick="agregarNumero('6')">
+        <input type="button" value="-" onclick="agregarNumero('-')">
         <br>
-        <input type="button" value="7" onclick="agregar('7')">
-        <input type="button" value="8" onclick="agregar('8')">
-        <input type="button" value="9" onclick="agregar('9')">
-        <input type="button" value="*" onclick="agregar('*')">
+        <input type="button" value="7" onclick="agregarNumero('7')">
+        <input type="button" value="8" onclick="agregarNumero('8')">
+        <input type="button" value="9" onclick="agregarNumero('9')">
+        <input type="button" value="*" onclick="agregarNumero('*')">
         <br>
-        <input type="button" value="0" onclick="agregar('0')">
-        <input  type="button" value="." onclick="agregar('.')">
-        <input type="button" value="/" onclick="agregar('/')">
-        <input type="button" value="=" onclick="calcular()">
+        <input type="button" value="0" onclick="agregarNumero('0')">
+        <input  type="button" value="." onclick="agregarNumero('.')">
+        <input type="button" value="/" onclick="agregarNumero('/')">
+        <input type="button" value="=" onclick="calcularNumero()">
         <br>
-        <input type="button" value="DEL" onclick="borrar()">
+        <input type="button" value="Borrar" onclick="borrarNumero()">
     </div>
-    <h2>By Darwin Chacón</h2>
 
     <script src="script.js"></script>
 </body>
